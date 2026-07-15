@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- external -->
+    <link rel="stylesheet" href="./01_types_of_css.css" />
+
+    <link rel="stylesheet" href="external.css" />
+
+    
+
+    <!-- internal -->
+    <style>
+      .heading3 {
+        color: brown;
+      }
+
+      #unique {
+        color: yellowgreen;
+      }
+
+      .btn {
+        color: steelblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 01.inline css -->
+
+    <h1 style="color: blueviolet">this is some heading</h1>
+
+    <h1
+      style="
+        font-family:
+          &quot;Trebuchet MS&quot;, &quot;Lucida Sans Unicode&quot;,
+          &quot;Lucida Grande&quot;, &quot;Lucida Sans&quot;, Arial, sans-serif;
+        color: teal;
+      "
+    >
+      this is heading tag
+    </h1>
+
+    <!-- 02. -->
+
+    <!-- internal -->
+
+    <h3 class="heading3">this is heading 3</h3>
+    <h3>this is heading 3</h3>
+
+    <h4 id="unique">this is internal css heading</h4>
+
+    <button class="btn">this is button 1</button>
+    <button class="btn">this is button 2</button>
+    <button class="btn">this is button 3</button>
+
+    <!-- 03 external -->
+
+    <h2 id="external">this is external css text</h2>
+
+    <button class="button">this is button 1</button>
+    <button class="button">this is button 2</button>
+    <button class="button">this is button 3</button>
+  </body>
+</html>
