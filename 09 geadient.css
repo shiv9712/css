@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selector</title>
+    <link rel="stylesheet" href="10_selector.css" />
+  </head>
+  <body>
+    <!-- class selector -->
+
+    <div class="class">
+      <p>this is class selector</p>
+    </div>
+
+    <!-- id selector -->
+
+    <div id="id">
+      <p>this is id selector</p>
+    </div>
+
+    <!-- two class -->
+
+    <div class="container box"></div>
+
+    <div class="para">
+      <p>this is some paragraph</p>
+    </div>
+
+    <p>this is out side paragraph</p>
+
+    <div class="heading">
+      <p>heading</p>
+    </div>
+
+
+  </body>
+</html>
