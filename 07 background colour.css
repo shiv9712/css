@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  height: 900px;
+  width: 900px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/33727738/pexels-photo-33727738.jpeg");
+}
+
+.car {
+  height: 400px;
+  width: 400px;
+  background-size: contain;
+  background-position: top left;
+
+  background-repeat: no-repeat;
+  background-image: url("https://media.wired.com/photos/63b8d0a771c6b526845f15a6/4:3/w_2400,h_1800,c_limit/CES-2023-PEUGEOT_INCEPTION_CONCEPT_2301CN202.jpg");
+}
