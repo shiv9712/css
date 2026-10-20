@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 800px;
+  width: 800px;
+  margin: auto;
+  border: 2px solid black;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#box-1 {
+  background: radial-gradient(white, red);
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  grid-column-end: -1;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 35px;
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+#box-2 {
+  background: linear-gradient(beige, pink, red);
+  grid-row: 2/5;
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+#box-3 {
+  background: radial-gradient(#f6d365, #fda085, #f5576c);
+  grid-column: 2/-1;
+  text-transform: capitalize;
+  font-size: 35px;
+  text-align: center;
+  font-family: cursive;
+  text-decoration: solid;
+}
+
+#box-4 {
+  background: radial-gradient(#f77062, #fe5196, #8a2387);
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+#box-5 {
+  background: radial-gradient(thistle, pink, white);
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+#box-6 {
+  grid-column: 2/4;
+  background: radial-gradient(thistle, pink, violet);
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+#box-7 {
+  background: radial-gradient(thistle, violet);
+
+  grid-column: 1/-1;
+  /* grid-area: 1/1/-1/-1; */
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: solid;
+}
