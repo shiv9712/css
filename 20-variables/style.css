@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:red;
+    --color2:blue;
+    ---color3:green;
+}
+
+.box{
+    
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    margin: 25px auto;
+    text-align: center;
+    font-family: cursive;
+   font-size: 55px;
+   background-color: var(--color2);
+}
+
+.p1{
+    font-family: cursive;
+   font-size: 55px;
+     background-color: var(--color3);
+
+}
+
+
+.h1{
+     font-family: cursive;
+   font-size: 55px;
+     color: var(--color1);
+}
+
